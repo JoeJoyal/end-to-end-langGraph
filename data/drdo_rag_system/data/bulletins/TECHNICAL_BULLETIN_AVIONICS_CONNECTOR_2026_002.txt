@@ -1,0 +1,22 @@
+DOCUMENT TYPE: TECHNICAL BULLETIN
+DOCUMENT ID: TB-AVI-2026-002
+TITLE: Avionics Connector Inspection Advisory
+ISSUE DATE: 2026-06-14
+APPLICABLE AIRCRAFT: Aircraft-A
+SYSTEM: Avionics
+CLASSIFICATION: INTERNAL TRAINING DATA
+
+PURPOSE
+This bulletin highlights recurring connector-related observations recorded during avionics maintenance.
+
+OBSERVATION
+Sample maintenance reports indicate intermittent indications associated with connector condition and installation history.
+
+RECOMMENDED REVIEW
+Review applicable avionics maintenance procedures and maintenance history before performing component replacement. Record connector condition and relevant evidence in the maintenance record.
+
+DOCUMENT RELATION
+The bulletin references MAN-AVI-A-003, Aircraft-A Avionics Maintenance Manual Rev-3.
+
+NOTE
+This advisory does not replace the approved maintenance documentation.

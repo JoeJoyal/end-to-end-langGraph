@@ -1,0 +1,112 @@
+AGEYE PLANT ANALYSIS – HEMP
+
+Plant Name: Hemp
+Scientific Name: Cannabis sativa
+Category: Plant
+Analysis Domain: Plant Health Monitoring
+
+1. Overview
+
+Hemp plant images can be processed using computer vision methods to identify plant regions, leaves, leaf boundaries, color characteristics, and visible abnormalities.
+
+This dataset is intended for demonstrating plant-image analysis and RAG retrieval workflows.
+
+2. Image Analysis
+
+Potential image-analysis targets include:
+
+* Whole plant detection
+* Leaf detection
+* Leaf segmentation
+* Plant-area measurement
+* Leaf-area measurement
+* Color analysis
+* Visible damage detection
+* Abnormal color-region detection
+
+3. Plant Segmentation
+
+Plant segmentation separates plant pixels from the image background.
+
+A possible processing pipeline is:
+
+Image acquisition → Preprocessing → Color analysis → Plant segmentation → Morphological processing → Plant mask
+
+The resulting plant mask can be used for subsequent leaf and feature analysis.
+
+4. Leaf Analysis
+
+The system can extract image-based features such as:
+
+* Leaf area
+* Leaf width
+* Leaf length
+* Leaf boundary
+* Leaf color
+* Leaf shape
+* Damaged-region area
+
+5. Visual Abnormality Detection
+
+Candidate abnormalities may include:
+
+* Yellow regions
+* Brown regions
+* Dark spots
+* Edge discoloration
+* Irregular leaf regions
+* Visible tissue damage
+
+These are visual observations and should not automatically be treated as confirmed causes.
+
+6. Example Analysis
+
+Input image contains a hemp plant with predominantly green leaves and several yellow-colored regions.
+
+Possible output:
+
+Plant: Hemp
+Plant detected: Yes
+Leaf regions: Detected
+Green regions: Predominant
+Yellow regions: Detected
+Potential abnormal regions: Detected
+
+7. Computer Vision Workflow
+
+Input:
+Hemp plant image
+
+Processing:
+Preprocessing → Segmentation → Leaf detection → Feature extraction → Abnormal-region analysis
+
+Output:
+Plant mask, leaf regions, image features, and candidate abnormal regions.
+
+8. Annotation Categories
+
+Possible annotation labels include:
+
+* Plant
+* Leaf
+* Healthy leaf
+* Yellow region
+* Brown region
+* Damaged region
+* Abnormal region
+
+9. Dataset Quality
+
+Useful image metadata may include:
+
+* Image ID
+* Plant type
+* Capture date
+* Camera/device
+* Resolution
+* Lighting condition
+* Annotation status
+
+10. Important Limitation
+
+Image-based analysis identifies visible characteristics. Additional domain information may be required to determine the underlying cause of an observed plant abnormality.

@@ -1,0 +1,40 @@
+DOCUMENT TYPE: MAINTENANCE MANUAL
+DOCUMENT ID: MAN-HYD-A-005
+TITLE: Aircraft-A Hydraulic System Maintenance Manual
+REVISION: Rev-5
+EFFECTIVE DATE: 2026-04-10
+AIRCRAFT: Aircraft-A
+SYSTEM: Hydraulic
+CLASSIFICATION: INTERNAL TRAINING DATA
+
+SECTION 1: SYSTEM OVERVIEW
+The hydraulic system provides pressurized fluid for flight-control actuation, landing-gear operation, braking, and auxiliary actuation. The system consists of reservoirs, pumps, filters, accumulators, control valves, pressure sensors, actuators, and associated plumbing.
+
+SECTION 2: PRE-MAINTENANCE SAFETY
+Before inspection, place the aircraft in the approved maintenance configuration. Isolate the hydraulic subsystem according to the applicable maintenance procedure. Verify that stored hydraulic pressure has been safely relieved before opening any connection. Use approved personal protective equipment and the organization's maintenance safety checklist.
+
+SECTION 3: ROUTINE INSPECTION
+Inspect visible hydraulic lines, fittings, connectors, valves, and actuator interfaces for evidence of leakage, damage, corrosion, or loose connections. Check available system indications against the approved maintenance record. Record abnormalities using the maintenance reporting system.
+
+SECTION 4: HYDRAULIC LEAKAGE INSPECTION
+4.1 Purpose
+This procedure provides a general inspection sequence for identifying hydraulic leakage.
+
+4.2 Procedure
+Step 1: Confirm the aircraft and subsystem identification.
+Step 2: Review the latest maintenance history for previously reported leakage.
+Step 3: Perform the approved system isolation procedure.
+Step 4: Conduct a visual inspection of accessible lines, fittings, seals, and actuator interfaces.
+Step 5: Check the approved pressure indication and compare observations with the applicable maintenance limits.
+Step 6: If leakage is suspected, document the location, observed condition, and maintenance reference.
+Step 7: Escalate any condition outside approved limits to authorized maintenance personnel.
+Step 8: Record the inspection result and supporting evidence in the maintenance system.
+
+SECTION 5: FILTER INSPECTION
+Inspect hydraulic filters according to the applicable scheduled-maintenance interval. Record filter condition and any contamination observations. Replacement decisions must follow the approved maintenance documentation.
+
+SECTION 6: TROUBLESHOOTING
+If pressure indication is abnormal, first verify the applicable sensor indication and maintenance history. Then inspect relevant valves, connections, filters, and pump interfaces according to the approved troubleshooting procedure. Do not infer a component failure solely from a single indication.
+
+SECTION 7: DOCUMENT CONTROL
+This manual is Rev-5. When multiple revisions are available, use the latest approved revision for current maintenance guidance. Earlier revisions should be retained for traceability but should not be treated as the current procedure.

@@ -1,0 +1,96 @@
+AGEYE PLANT ANALYSIS – BASIL
+
+Plant Name: Basil
+Scientific Name: Ocimum basilicum
+Category: Herb
+Analysis Domain: Plant Health Monitoring
+
+1. Overview
+
+Basil is an aromatic herb commonly analyzed using plant image analysis techniques. AGEYE plant analysis can process images of basil plants to identify plant regions, leaves, and visible leaf abnormalities.
+
+2. Image Analysis
+
+The image analysis pipeline can identify:
+
+* Complete basil plant
+* Individual leaves
+* Leaf boundaries
+* Leaf area
+* Leaf color variation
+* Yellowing
+* Brown or damaged regions
+* Tip-burn-like symptoms
+* Visible deficiency-related patterns
+
+3. Plant Segmentation
+
+Plant segmentation separates the basil plant from the background.
+
+Typical processing stages include:
+
+* Image acquisition
+* Image normalization
+* Noise reduction
+* Color-space conversion
+* Plant/background separation
+* Morphological processing
+* Plant mask generation
+
+An inter-channel color index can be used as one feature for separating plant regions from the background.
+
+4. Leaf Analysis
+
+After plant segmentation, individual leaf regions can be analyzed.
+
+Useful measurements include:
+
+* Leaf area
+* Leaf length
+* Leaf width
+* Leaf color
+* Leaf shape
+* Percentage of damaged area
+* Number of detected leaves
+
+5. Visual Health Indicators
+
+Possible visual indicators include:
+
+* Green and healthy leaf regions
+* Yellow leaf regions
+* Brown regions
+* Dark spots
+* Leaf-edge damage
+* Tip discoloration
+* Irregular leaf regions
+
+Image-based indicators should be treated as visual observations and should not automatically be considered a confirmed diagnosis.
+
+6. AGEYE Processing Workflow
+
+Input:
+Basil plant image
+
+Processing:
+Image preprocessing → Plant segmentation → Leaf detection → Feature extraction → Deficiency/damage analysis
+
+Output:
+Plant mask, detected leaf regions, extracted measurements, and detected visual abnormalities.
+
+7. Example Analysis
+
+Input image contains a basil plant with predominantly green leaves and several leaves containing yellow regions.
+
+Possible system output:
+
+Plant: Basil
+Plant detected: Yes
+Leaf regions detected: Yes
+Visible yellow regions: Detected
+Visible damaged regions: Detected
+Overall image observation: Some leaves contain abnormal color regions.
+
+8. Important Limitation
+
+Image analysis identifies visual patterns. A visual abnormality does not by itself establish the exact nutrient deficiency, disease, environmental cause, or treatment requirement.

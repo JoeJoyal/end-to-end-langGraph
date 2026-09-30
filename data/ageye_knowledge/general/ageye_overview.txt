@@ -1,0 +1,163 @@
+AGEYE – GENERAL SYSTEM OVERVIEW
+
+System: AGEYE
+Domain: Agricultural Technology
+Purpose: Plant, equipment, image, and agricultural data analysis
+
+1. Overview
+
+AGEYE is an intelligent agricultural technology platform that can combine computer vision, machine learning, automation, data processing, and analytics.
+
+The platform can process plant images, equipment information, sensor data, and operational information.
+
+2. Major Areas
+
+AGEYE can contain several functional areas:
+
+* Plant Analysis
+* Equipment Analysis
+* ARIS
+* Image Processing
+* Machine Learning
+* Data Management
+* Automation
+* Reporting
+* Monitoring
+
+3. Plant Analysis
+
+Plant analysis can use computer vision to analyze plant images.
+
+Possible capabilities include:
+
+* Plant segmentation
+* Leaf detection
+* Leaf analysis
+* Color analysis
+* Damage detection
+* Abnormal-region detection
+* Plant measurements
+
+Supported example plants in the sample knowledge base include:
+
+* Basil
+* Lettuce
+* Hemp
+
+4. Equipment
+
+AGEYE can maintain information about agricultural equipment.
+
+Example equipment categories include:
+
+* Automated Seeder
+* Automated Transplanter
+* Automated Harvester
+* Automated Tray Washer
+
+Equipment information may contain:
+
+* Equipment name
+* Purpose
+* Operating process
+* Components
+* Input
+* Output
+* Monitoring information
+
+5. ARIS
+
+ARIS is an intelligent agricultural system within the AGEYE knowledge domain.
+
+It can combine:
+
+* Computer vision
+* Sensor data
+* Machine-learning models
+* Data processing
+* Workflow automation
+* Reporting
+
+6. Computer Vision
+
+AGEYE computer-vision applications can include:
+
+* Object detection
+* Image classification
+* Semantic segmentation
+* Plant segmentation
+* Leaf detection
+* Feature extraction
+* Visual abnormality detection
+
+7. Machine Learning
+
+Machine-learning models can be used to analyze agricultural data.
+
+Possible model types include:
+
+* CNN
+* YOLO
+* Faster R-CNN
+* Vision Transformer
+* Random Forest
+* XGBoost
+
+8. Data Pipeline
+
+A generic AGEYE data pipeline is:
+
+Data Collection
+→ Data Validation
+→ Preprocessing
+→ Feature Extraction
+→ Machine Learning
+→ Result Validation
+→ Storage
+→ Reporting
+
+9. Knowledge Management
+
+AGEYE documentation can be organized into domain-specific knowledge sources.
+
+Example categories:
+
+* Equipment
+* Plant Analysis
+* ARIS
+* General
+
+A RAG system can retrieve relevant documents from these knowledge sources based on a user's question.
+
+10. Example RAG Questions
+
+Equipment:
+
+"What is the purpose of the automated seeder?"
+
+Plant:
+
+"How is basil analyzed?"
+
+ARIS:
+
+"What are the stages of the ARIS workflow?"
+
+General:
+
+"What are the major components of AGEYE?"
+
+11. AGEYE RAG Architecture
+
+User Query
+→ Query Analysis
+→ Intent Detection
+→ Knowledge Source Selection
+→ Document Retrieval
+→ Context Construction
+→ LLM Generation
+→ Answer
+
+12. Important Limitation
+
+AGEYE analysis results depend on the quality of the source data, models, annotations, processing pipeline, and configuration used for a particular application.

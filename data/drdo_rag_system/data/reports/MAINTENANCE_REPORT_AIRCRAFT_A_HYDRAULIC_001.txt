@@ -1,0 +1,23 @@
+DOCUMENT TYPE: MAINTENANCE REPORT
+REPORT ID: MR-HYD-A-001
+REPORT DATE: 2026-05-11
+AIRCRAFT: Aircraft-A
+SYSTEM: Hydraulic
+CATEGORY: Leakage observation
+SEVERITY: Major
+CLASSIFICATION: INTERNAL TRAINING DATA
+
+SUMMARY
+A hydraulic leakage indication was recorded during scheduled maintenance inspection.
+
+OBSERVATION
+The inspection identified evidence of fluid accumulation near an accessible hydraulic connection area.
+
+ACTION
+The condition was documented and referred to authorized maintenance personnel for assessment according to the applicable maintenance documentation.
+
+REFERENCE
+MAN-HYD-A-005 Rev-5, Section 4.2.
+
+STATUS
+Closed after authorized maintenance review and record update.

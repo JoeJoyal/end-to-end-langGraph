@@ -1,0 +1,23 @@
+DOCUMENT TYPE: MAINTENANCE REPORT
+REPORT ID: MR-HYD-A-002
+REPORT DATE: 2026-06-03
+AIRCRAFT: Aircraft-A
+SYSTEM: Hydraulic
+CATEGORY: Pressure indication anomaly
+SEVERITY: Minor
+CLASSIFICATION: INTERNAL TRAINING DATA
+
+SUMMARY
+An abnormal hydraulic pressure indication was reported during maintenance checks.
+
+OBSERVATION
+The recorded indication differed from the expected maintenance reference range.
+
+ACTION
+Maintenance personnel reviewed the relevant indication, maintenance history, and associated system components according to approved procedures.
+
+REFERENCE
+MAN-HYD-A-005 Rev-5, Section 6.
+
+STATUS
+Closed after authorized troubleshooting and record update.

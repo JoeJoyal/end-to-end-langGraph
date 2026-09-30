@@ -1,0 +1,7 @@
+Automated Transplanter
+Moves seedlings from nursery trays to grow positions with minimal plant stress and zero manual handling. Synchronized with growth stage transitions defined in crop recipes, so transplanting happens at the right time, every time.
+
+Gentle handling to minimize transplant shock
+Synchronized with crop recipe stage transitions
+Eliminates manual transplanting bottleneck
+Tracks transplant counts for production accuracy

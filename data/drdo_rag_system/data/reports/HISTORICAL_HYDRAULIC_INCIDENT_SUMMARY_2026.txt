@@ -1,0 +1,23 @@
+DOCUMENT TYPE: MAINTENANCE ANALYTICS REPORT
+REPORT ID: ANALYTICS-HYD-2026
+TITLE: Aircraft-A Hydraulic Incident Summary
+REPORTING PERIOD: 2026-01-01 to 2026-12-31
+AIRCRAFT: Aircraft-A
+SYSTEM: Hydraulic
+CLASSIFICATION: INTERNAL TRAINING DATA
+
+SUMMARY
+This synthetic dataset contains an aggregated maintenance count intended for RAG and tool-calling demonstrations.
+
+AGGREGATED COUNTS
+Total hydraulic-related incidents: 17
+Critical: 2
+Major: 5
+Minor: 10
+
+IMPORTANT
+These figures are synthetic sample data created for application development and testing. They are not operational statistics.
+
+RELATED DOCUMENTS
+MAN-HYD-A-005 Rev-5
+TB-HYD-2026-001

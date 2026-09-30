@@ -1,0 +1,23 @@
+DOCUMENT TYPE: MAINTENANCE MANUAL
+DOCUMENT ID: MAN-AVI-A-003
+TITLE: Aircraft-A Avionics Maintenance Manual
+REVISION: Rev-3
+EFFECTIVE DATE: 2026-02-18
+AIRCRAFT: Aircraft-A
+SYSTEM: Avionics
+CLASSIFICATION: INTERNAL TRAINING DATA
+
+SECTION 1: AVIONICS OVERVIEW
+The avionics suite contains navigation, communication, display, monitoring, and data-processing subsystems.
+
+SECTION 2: PRE-MAINTENANCE CHECK
+Confirm aircraft identification and maintenance authorization. Record the reported symptom before performing diagnostic checks.
+
+SECTION 3: FAULT REVIEW
+Review historical maintenance records and applicable technical bulletins before replacing a component. Verify connector condition, power availability, and relevant built-in test indications.
+
+SECTION 4: COMPONENT REPLACEMENT RECORD
+When an authorized component replacement is performed, record the component identifier, previous component status, replacement date, and applicable maintenance reference.
+
+SECTION 5: DOCUMENT CONTROL
+Rev-3 is the current revision represented by this sample dataset. Always verify revision status against the document repository before using the document operationally.

@@ -1,0 +1,28 @@
+A crop turn is one complete cycle from transplant (or seeding) to harvest for a single grow position. The number of annual turns determines your facility’s throughput — it is the multiplier that converts per-cycle yield into annual production. Turns are calculated as 365 divided by total cycle days (propagation + grow-out + any downtime). Stagger planting — starting new cohorts at regular intervals rather than all at once — creates a continuous harvest schedule and maximizes rack utilization throughout the year.
+
+Select your crop to load default cycle times. Each crop has a preset propagation period and total cycle length.
+
+Configure your facility: number of grow positions and square feet per position.
+
+Adjust cycle timing: propagation days, total cycle days, and stagger interval between cohorts.
+
+Crop	Total Cycle (days)	Propagation (days)	Yield Unit	Yield/sqft/Turn
+Butterhead	25	10	heads	1.1
+Romaine	32	12	heads	0.9
+Leaf Lettuce	23	10	heads	1.2
+Basil	28	12	oz	0.6
+Arugula	25	8	oz	0.8
+Kale	30	10	oz	0.5
+Microgreens	12	0	oz	0.7
+Strawberry	60	21	lb	0.25
+Tomato	75	28	lb	0.55
+Cucumber	55	18	lb	0.6
+
+Divide 365 by your total cycle length in days. For example, butterhead lettuce with a 25-day cycle gives 365 / 25 = 14.6 turns per year. In practice, allow 1–2 days between turns for cleaning and replanting, so realistic turns might be 13–14.
+
+Stagger planting means starting new crop cohorts at regular intervals (e.g., every 3–4 days for lettuce) rather than planting all positions at once. This creates a continuous harvest schedule where you harvest a portion of your crop every few days, providing steady supply to buyers and maximizing rack utilization.
+
+Microgreens are direct-seeded onto trays and germinate in place — there is no separate propagation or transplant step. The entire cycle (seeding, blackout/germination, greening, harvest) happens on one tray, which is why the total cycle is just 10–14 days.
+
+Shorter cycle times mean more turns per year, which multiplies annual yield per square foot. Reducing a lettuce cycle from 28 to 25 days increases turns from 13 to 14.6 — a 12% increase in annual throughput from the same footprint. This is one of the highest-impact levers for indoor farm profitability.
+

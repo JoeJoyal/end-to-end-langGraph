@@ -1,0 +1,7 @@
+Automated Seeder
+Precision seeding at scale. Handles multiple seed types and tray configurations with consistent placement accuracy, eliminating the variability and labor cost of manual seeding. Integrated with crop scheduling so seeding runs are auto-triggered based on the production plan.
+
+Consistent seed placement across tray formats
+Multi-seed-type capability
+Triggered automatically from crop schedule
+Reduces seeding labor by up to 90%

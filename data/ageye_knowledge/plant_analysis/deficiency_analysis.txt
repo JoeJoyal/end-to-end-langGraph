@@ -1,0 +1,220 @@
+AGEYE PLANT ANALYSIS – DEFICIENCY ANALYSIS
+
+Analysis Domain: Plant Visual Health
+Purpose: Computer Vision and RAG Demonstration
+
+1. Overview
+
+Plant deficiency analysis can use image-based features to identify visible changes in plant leaves.
+
+The system can detect candidate visual patterns such as:
+
+* Yellowing
+* Brown discoloration
+* Leaf-edge discoloration
+* Tip-burn-like regions
+* Dark spots
+* Uneven coloration
+* Reduced green-area percentage
+
+These visual observations should not automatically be interpreted as a confirmed nutrient deficiency.
+
+2. Common Visual Patterns
+
+Pattern: Yellowing
+
+Description:
+Leaf tissue changes from green toward yellow.
+
+Image features:
+
+* Reduced green intensity
+* Increased yellow component
+* Change in color distribution
+* Expanded yellow region
+
+Possible interpretation:
+The pattern may be associated with several plant, environmental, or nutritional factors. Additional information is required for diagnosis.
+
+Pattern: Brown Leaf Regions
+
+Description:
+Brown or dark regions appear on leaf tissue.
+
+Image features:
+
+* Darker pixels
+* Brown color distribution
+* Irregular region boundaries
+
+Possible interpretation:
+The pattern may represent damage, aging, environmental stress, disease-related symptoms, or other causes.
+
+Pattern: Leaf Tip Discoloration
+
+Description:
+Discoloration occurs near the tips or edges of leaves.
+
+Image features:
+
+* Abnormal color near leaf boundaries
+* Increased brown-region percentage
+* Region concentrated around leaf tips
+
+Possible interpretation:
+This is a visual pattern that may have multiple causes.
+
+3. Image Processing Pipeline
+
+A typical deficiency-analysis pipeline can contain:
+
+Step 1:
+Acquire plant image.
+
+Step 2:
+Perform image preprocessing.
+
+Step 3:
+Remove noise and normalize the image.
+
+Step 4:
+Perform plant segmentation.
+
+Step 5:
+Detect individual leaf regions.
+
+Step 6:
+Extract color and shape features.
+
+Step 7:
+Identify candidate abnormal regions.
+
+Step 8:
+Calculate abnormal-region measurements.
+
+Step 9:
+Generate an analysis report.
+
+4. Important Features
+
+Color Features:
+
+* RGB values
+* HSV values
+* Color-channel ratios
+* Green-area percentage
+* Yellow-area percentage
+* Brown-area percentage
+
+Shape Features:
+
+* Area
+* Perimeter
+* Aspect ratio
+* Bounding box
+* Contour characteristics
+
+Region Features:
+
+* Abnormal-region area
+* Abnormal-region percentage
+* Distance from leaf boundary
+* Region location
+
+5. Example
+
+Input:
+
+Plant type: Lettuce
+
+Observed image characteristics:
+
+* Large green leaf regions
+* Brown regions near several leaf tips
+* Abnormal regions concentrated around leaf boundaries
+
+Candidate output:
+
+Plant: Lettuce
+Leaf detected: Yes
+Brown region: Detected
+Tip-region abnormality: Detected
+Confidence: Example value only
+
+6. Machine Learning Integration
+
+Extracted image features can be supplied to a machine-learning model.
+
+Example workflow:
+
+Plant image
+→ Preprocessing
+→ Segmentation
+→ Feature extraction
+→ ML model
+→ Classification
+→ Analysis result
+
+Possible models include:
+
+* Random Forest
+* XGBoost
+* CNN
+* Vision Transformer
+* Object detection models
+* Semantic segmentation models
+
+7. Annotation
+
+Training data may contain annotations for:
+
+* Plant
+* Leaf
+* Deficiency region
+* Tip-burn region
+* Damaged region
+* Healthy region
+
+Annotation quality should be checked before model training.
+
+8. Evaluation
+
+Possible computer-vision metrics include:
+
+Detection:
+
+* Precision
+* Recall
+* mAP
+
+Segmentation:
+
+* IoU
+* Dice coefficient
+
+Classification:
+
+* Accuracy
+* Precision
+* Recall
+* F1 score
+
+9. RAG Usage
+
+This document can be used as a knowledge source for an AGEYE RAG system.
+
+Example user question:
+
+"What visual features are used for deficiency analysis?"
+
+Relevant information includes:
+
+* Color features
+* Shape features
+* Abnormal-region measurements
+* Leaf-boundary information
+* Green/yellow/brown area percentages
+
+10. Important Limitation
+
+Visual image analysis alone should not be used to make a definitive diagnosis. The detected visual pattern should be combined with appropriate domain information and other measurements when a biological or agricultural conclusion is required.

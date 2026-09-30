@@ -1,0 +1,22 @@
+DOCUMENT TYPE: TECHNICAL BULLETIN
+DOCUMENT ID: TB-HYD-2026-001
+TITLE: Hydraulic System Leakage Inspection Advisory
+ISSUE DATE: 2026-05-02
+APPLICABLE AIRCRAFT: Aircraft-A
+SYSTEM: Hydraulic
+CLASSIFICATION: INTERNAL TRAINING DATA
+
+PURPOSE
+This bulletin provides an advisory regarding recurring hydraulic leakage reports observed during maintenance activities.
+
+OBSERVATION
+Maintenance records reviewed for the sample period contain multiple reports involving leakage indications near hydraulic connection points and actuator interfaces.
+
+RECOMMENDED REVIEW
+Maintenance personnel should review the latest approved hydraulic maintenance manual and verify that inspections are documented consistently. Particular attention should be given to the inspection history, observed leakage location, and applicable maintenance limits.
+
+DOCUMENT RELATION
+The bulletin references MAN-HYD-A-005, Aircraft-A Hydraulic System Maintenance Manual Rev-5.
+
+NOTE
+This bulletin is an advisory document. It does not replace the approved maintenance manual or authorized engineering instructions.

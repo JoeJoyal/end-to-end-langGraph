@@ -1,0 +1,23 @@
+DOCUMENT TYPE: MAINTENANCE REPORT
+REPORT ID: MR-AVI-A-001
+REPORT DATE: 2026-06-20
+AIRCRAFT: Aircraft-A
+SYSTEM: Avionics
+CATEGORY: Connector observation
+SEVERITY: Minor
+CLASSIFICATION: INTERNAL TRAINING DATA
+
+SUMMARY
+An intermittent avionics indication was reported during maintenance.
+
+OBSERVATION
+Inspection identified a connector condition requiring maintenance attention.
+
+ACTION
+The condition was documented and handled according to the applicable avionics maintenance procedure.
+
+REFERENCE
+MAN-AVI-A-003 Rev-3, Section 3.
+
+STATUS
+Closed after authorized maintenance review.
